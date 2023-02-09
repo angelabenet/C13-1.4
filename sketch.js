@@ -64,9 +64,9 @@ function spawnClouds() {
   if (frameCount % 60 === 0) {
     cloude = createSprite(600,100,40,10);
     cloude.addImage(cloudImage);
-
+  // COLOQUE ALEATORIDADE 
     cloude.velocityX = -3;
-
+       
     cloude.depth = trex.depth
     trex.depth = trex.depth + 1;
     
